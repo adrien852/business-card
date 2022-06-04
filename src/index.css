@@ -1,13 +1,139 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+    font-family: 'Inter', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,p{
+    margin:0;
+}
+
+h1{
+    padding-top: 21px;
+    font-size: 25px;
+}
+
+h3{
+    padding-top: 7px;
+    font-size: 12.8px;
+    color: #F3BF99;
+    font-weight: 400;
+}
+
+h4{
+    font-weight: 700;
+    font-size: 16px;
+    color: #F5F5F5;
+}
+
+.info p{
+    padding-top: 9px;
+    font-size: 10.24px;
+}
+
+body{
+    margin: 0;
+    background-color: #23252C;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin:44px auto;
+    width:317px;
+    color: white;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #1A1B21;
+}
+
+.info img{
+    width:317px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: none;
+}
+
+.info button{
+    padding: 9px 13px 9px 11px;
+
+    /* gray/300 */
+    border: 0;
+
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    width:115px;
+    font-weight: 500;
+    display: flex;
+    justify-content:center;
+}
+
+button.mail{
+    background-color: white;
+}
+
+button.linkedin{
+    background-color: #5093E2;
+    color:white;
+}
+
+.info .mail span{
+    background: url(./images/Mail.png) no-repeat;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.info .linkedin span{
+    background: url(./images/linkedin.png) no-repeat;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.buttons{
+    padding: 20px 38px 18px 38px;
+
+    display: flex;
+    justify-content:space-between ;
+}
+
+.about{
+    text-align: left;
+    padding:12px 34px 12px 34px;
+}
+
+.interests{
+    text-align: left;
+    padding:12px 34px 40px 34px;
+}
+
+.about p, .interests p{
+    color: #DCDCDC;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.footer{
+    background-color: #161619;
+    padding: 19px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a{
+    display: flex;
 }
