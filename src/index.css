@@ -76,6 +76,7 @@ body{
     font-weight: 500;
     display: flex;
     justify-content:center;
+    cursor: pointer;
 }
 
 button.mail{
@@ -105,9 +106,9 @@ button.linkedin{
 
 .buttons{
     padding: 20px 38px 18px 38px;
-
     display: flex;
     justify-content:space-between ;
+
 }
 
 .about{
